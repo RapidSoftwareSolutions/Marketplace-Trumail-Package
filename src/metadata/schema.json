@@ -1,0 +1,45 @@
+{
+    "package": "Trumail",
+    "tagline": "Trumail API",
+    "description": "Prevent bounced emails and low-quality users with FREE professional grade email verification.Trumail is a fast and accurate email address verification API written entirely in Go. It was built with the intention of providing software engineers and businesses with a simple and easy to use solution to bounced emails.",
+    "image": "https:\/\/trumail.io\/assets\/images\/trumail100.png",
+    "repo": "https:\/\/github.com\/RapidSoftwareSolutions\/Marketplace-Trumail-Package",
+    "keywords": [
+        "API",
+        "Email",
+        "Verification"
+    ],
+    "accounts": {
+        "domain": "trumail.io",
+        "credentials": []
+    },
+    "blocks": [
+        {
+            "name": "verifyEmail",
+            "description": "The speed of each verification is dependent on the speed of the mail server.Slow servers will always result in slow verifications.",
+            "args": [
+                {
+                    "name": "email",
+                    "type": "String",
+                    "info": "Email for verification.",
+                    "required": true
+                }
+            ],
+            "vendorRequest": {
+                "url": "http:\/\/trumail.io\/json\/{$data['email']}",
+                "method": "get",
+                "requestParameters": []
+            },
+            "callbacks": [
+                {
+                    "name": "error",
+                    "info": "Error"
+                },
+                {
+                    "name": "success",
+                    "info": "Success"
+                }
+            ]
+        }
+    ]
+}
