@@ -1,0 +1,7 @@
+/logs/
+/vendor/
+/test/rapid.*
+/test/*.json
+/src/metadata/metadata_full.json
+/.idea
+/test

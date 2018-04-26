@@ -22,7 +22,7 @@ $app->post('/api/Trumail/verifyEmail', function ($request, $response) {
     
 
     $client = $this->httpClient;
-    $query_str = "http://trumail.io/json/{$data['email']}";
+    $query_str = "https://api.trumail.io/v1/json/{$data['email']}";
 
     
 
@@ -33,7 +33,6 @@ $app->post('/api/Trumail/verifyEmail', function ($request, $response) {
     try {
         $resp = $client->get($query_str, $requestParams);
         $responseBody = $resp->getBody()->getContents();
-
         if(in_array($resp->getStatusCode(), ['200', '201', '202', '203', '204'])) {
             $result['callback'] = 'success';
             $result['contextWrites']['to'] = is_array($responseBody) ? $responseBody : json_decode($responseBody);
