@@ -23,6 +23,12 @@
                     "type": "String",
                     "info": "Email for verification.",
                     "required": true
+                },
+                {
+                    "name": "emailTest",
+                    "type": "String",
+                    "info": "Temp parametr for test",
+                    "required": false
                 }
             ],
             "vendorRequest": {
