@@ -26,8 +26,8 @@
                 },
                 {
                     "name": "emailTest",
-                    "type": "String",
-                    "info": "Temp parametr for test",
+                    "type": "Number",
+                    "info": "Temp parameter for test",
                     "required": false
                 }
             ],
