@@ -29,6 +29,12 @@
                     "type": "Number",
                     "info": "Temp parameter for test",
                     "required": false
+                },
+                {
+                    "name": "emailTest2",
+                    "type": "Number",
+                    "info": "Temp parameter for test",
+                    "required": false
                 }
             ],
             "vendorRequest": {
