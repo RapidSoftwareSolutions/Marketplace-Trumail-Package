@@ -34,6 +34,11 @@
                 {
                     "name": "listTest",
                     "type": "List",
+                    "structure": {
+                        "name": "ref",
+                        "type": "String",
+                        "info": "Single references\/requirements."
+                    },
                     "info": "Temp parameter for test",
                     "required": false
                 },
