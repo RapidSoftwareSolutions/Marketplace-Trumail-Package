@@ -25,9 +25,15 @@
                     "required": true
                 },
                 {
-                    "name": "emailTest44dfgdfg4",
+                    "name": "emailTest44dfgdfg4hjkhjk",
                     "type": "Select",
                     "options":["sf","Asdsd"],
+                    "info": "Temp parameter for test",
+                    "required": false
+                },
+                {
+                    "name": "listTest",
+                    "type": "List",
                     "info": "Temp parameter for test",
                     "required": false
                 },
