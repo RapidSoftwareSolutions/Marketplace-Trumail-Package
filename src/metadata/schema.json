@@ -25,23 +25,9 @@
                     "required": true
                 },
                 {
-                    "name": "emailTest",
+                    "name": "emailTest444",
                     "type": "String",
                     "info": "Email for verification.",
-                    "required": true
-                },
-                {
-                    "name": "emailTest2",
-                    "type": "Select",
-                    "options":["where","is","bug?"],
-                    "info": "Temp parameter for test",
-                    "required": false
-                },
-                {
-                    "name": "emailTest23",
-                    "type": "Select",
-                    "options":["where","is","bug?"],
-                    "info": "Temp parameter for test",
                     "required": false
                 }
             ],
