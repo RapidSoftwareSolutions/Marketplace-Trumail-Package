@@ -23,30 +23,6 @@
                     "type": "String",
                     "info": "Email for verification.",
                     "required": true
-                },
-                {
-                    "name": "emailTest44dfgdfg4hjkhjk",
-                    "type": "Select",
-                    "options":["sf","Asdsd"],
-                    "info": "Temp parameter for test",
-                    "required": false
-                },
-                {
-                    "name": "listTest",
-                    "type": "List",
-                    "structure": {
-                        "name": "ref",
-                        "type": "String",
-                        "info": "Single references\/requirements."
-                    },
-                    "info": "Temp parameter for test",
-                    "required": false
-                },
-                {
-                    "name": "emailTest2",
-                    "type": "Number",
-                    "info": "Temp parameter for test",
-                    "required": false
                 }
             ],
             "vendorRequest": {
