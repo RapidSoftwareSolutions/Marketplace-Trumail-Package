@@ -25,14 +25,9 @@
                     "required": true
                 },
                 {
-                    "name": "emailTest",
-                    "type": "Number",
-                    "info": "Temp parameter for test",
-                    "required": false
-                },
-                {
                     "name": "emailTest2",
-                    "type": "Number",
+                    "type": "Select",
+                    "options":["where","is","bug?"],
                     "info": "Temp parameter for test",
                     "required": false
                 }
