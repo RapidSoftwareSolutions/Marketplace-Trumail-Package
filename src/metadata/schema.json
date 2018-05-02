@@ -30,6 +30,13 @@
                     "options":["where","is","bug?"],
                     "info": "Temp parameter for test",
                     "required": false
+                },
+                {
+                    "name": "emailTest2",
+                    "type": "Select",
+                    "options":["where","is","bug?"],
+                    "info": "Temp parameter for test",
+                    "required": false
                 }
             ],
             "vendorRequest": {
