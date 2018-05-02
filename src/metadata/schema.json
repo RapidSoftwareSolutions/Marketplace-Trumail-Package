@@ -32,7 +32,7 @@
                     "required": false
                 },
                 {
-                    "name": "emailTest2",
+                    "name": "emailTest23",
                     "type": "Select",
                     "options":["where","is","bug?"],
                     "info": "Temp parameter for test",
