@@ -23,17 +23,6 @@
                     "type": "String",
                     "info": "Email for verification.",
                     "required": true
-                },
-                {
-                    "name": "email",
-                    "type": "List",
-                    "structure": {
-                        "name": "ref",
-                        "type": "String",
-                        "info": "Single references\/requirements."
-                    },
-                    "info": "Email for verification.",
-                    "required": true
                 }
             ],
             "vendorRequest": {
