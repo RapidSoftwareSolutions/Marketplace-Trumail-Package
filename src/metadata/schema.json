@@ -16,7 +16,7 @@
     "blocks": [
         {
             "name": "verifyEmail",
-            "description": "The speed of each verification is dependent on the speed of the mail server.Slow servers will always result in slow verifications.",
+            "description": "TestThe speed of each verification is dependent on the speed of the mail server.Slow servers will always result in slow verifications.",
             "args": [
                 {
                     "name": "email",
